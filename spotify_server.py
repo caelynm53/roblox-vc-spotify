@@ -59,8 +59,8 @@ def add_cors_headers(response):
 	response.headers['Cache-Control'] = 'public, max-age=86400'
 	return response
 
-SPOTIFY_CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID") or os.getenv("SPOTIFY_CLIENT_ID")
-SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET") or os.getenv("SPOTIFY_CLIENT_SECRET")
+SPOTIFY_CLIENT_ID = os.getenv("143288d3aaa948a0b230f9b7c15f1ce0") or os.getenv("143288d3aaa948a0b230f9b7c15f1ce0")
+SPOTIFY_CLIENT_SECRET = os.getenv("143288d3aaa948a0b230f9b7c15f1ce0") or os.getenv("143288d3aaa948a0b230f9b7c15f1ce0")
 
 HOST = os.getenv("HOST", "localhost")
 PORT = int(os.getenv("PORT", "5000"))
