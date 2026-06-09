@@ -35,8 +35,8 @@ except ImportError:
 WORKSPACE_FOLDER = Path(__file__).parent / "fart"
 WORKSPACE_FOLDER.mkdir(parents=True, exist_ok=True)
 
-SPOTIFY_CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID") or os.getenv("SPOTIFY_CLIENT_ID")
-SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET") or os.getenv("SPOTIFY_CLIENT_SECRET")
+SPOTIFY_CLIENT_ID = os.getenv("143288d3aaa948a0b230f9b7c15f1ce0") or os.getenv("143288d3aaa948a0b230f9b7c15f1ce0")
+SPOTIFY_CLIENT_SECRET = os.getenv("143288d3aaa948a0b230f9b7c15f1ce0") or os.getenv("143288d3aaa948a0b230f9b7c15f1ce0")
 
 def check_dependencies():
 	"""Ensure required external executables are available for playback."""
